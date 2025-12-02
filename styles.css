@@ -1,0 +1,63 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+  color: #333;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  margin-bottom: 1rem;
+  color: #00466a;
+}
+#weather-app {
+  background: #ffffffcc;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgb(0 0 0 / 0.2);
+  max-width: 320px;
+  width: 100%;
+}
+#city-select, #get-weather-btn {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: 1px solid #00466a;
+  outline: none;
+}
+#get-weather-btn {
+  background-color: #00466a;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#get-weather-btn:hover {
+  background-color: #003550;
+}
+#weather-info {
+  display: none;
+  text-align: center;
+}
+#weather-icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 0.5rem;
+}
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.25rem 0;
+  font-size: 0.95rem;
+}
+.label {
+  font-weight: 600;
+  color: #00466a;
+}
+.value {
+  font-style: italic;
+}
